@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docsage_disease_classifier"
+authors = [
+    {name = "Jameel Ahmad", email = "jameelahmad221b@gmail.com"}
+]
+version = "0.0.1"
+dependencies = [
+    "torch",
+    "torchaudio",
+    "torchvision",
+]
